@@ -1,0 +1,241 @@
+body{
+    font-family: heebo, sans-serif;
+    font-size: 22px;
+    width: 100%;
+}
+
+.header{
+    position: fixed;;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    color: #5242e6;
+    z-index: 1;
+}
+nav{
+    padding-right: 50px;
+}
+a {
+    float: right;
+    color: #5242e6;
+    padding-top:15px;
+    padding-right: 30px;
+    margin: 14px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+a:visited, a:hover, a:active, a:focus {
+    color:#5242e6;
+  }
+.name{
+    position: absolute;
+    left: 120px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+.logo{
+    position: absolute;
+    top: -13px;
+    left: 50px;
+    float:left;
+    width: 100px;
+    height: 100px;
+    
+}
+#home{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    background-color: #5242e6;
+    height: 900px;
+    z-index: -1;
+}
+.content{
+    position: absolute;
+    top:200px;
+    left:100px;
+    color:white;
+    z-index: 1;
+}
+.home-name{
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    font-size: 60px;
+    width: 100%;
+    font-family:bahnschrift;
+}
+.discription1{
+    position: absolute;
+    top: 340px;
+    left: 140px;
+    width: 1000px;
+    font-family: sans-serif;
+}
+.button1{
+    position: absolute;
+    top: 490px;
+    left: 140px;
+    background-color: white;
+  border: none;
+  color: #5242e6;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.home-photo{
+    margin-top: -300px;
+    width: 450px;
+    height: 800px;
+    margin-left:770px;
+}
+.rect1{
+    margin-top: 120px;
+    margin-left:50%;
+    height:190px;
+    width:150px;
+    background-color: white;
+    z-index: 1;
+    opacity: 80%;
+}
+.rect2{
+    margin-top: 150px;
+    margin-left:85%;
+    height:190px;
+    width:150px;
+    background-color: white;
+    z-index: 1;
+    opacity: 80%;
+}
+#about{
+    position: absolute;
+    left: 0px;
+    top: 900px;
+    background-color: lightgreen;
+    color: black;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    
+}
+h1{
+    margin-top:150px;
+    margin-left: 241px;
+}
+.am_d{
+    color: #888ca5;
+    text-align:justify;
+    width: 470px;
+    margin-left: 241px;
+    font-family:Bahnschrift;
+    font-size: 16px;
+}
+.button2{
+    background-color:#5242e6;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 40px 241px; 
+}
+#skills{
+    position: absolute;
+    left: 0px;
+    top: 1400px; 
+    background-color:white;
+    color: black;
+    width: 100%;
+    height: 800px;
+    z-index: -3;
+}
+table{
+    margin-left:241px;
+    width:60%;
+}
+td{
+    width:30%;
+    text-align: justify;
+    
+}
+.th{
+    height: 100px;
+    font-size:24px;
+    color: #5242e6;
+}
+.tcon{
+    padding-right:10%;
+    font-family:Bahnschrift;
+    color: #888ca5;
+    font-size: 16px;
+    text-align:justify;
+}
+
+#recommended{
+    position: absolute;
+    left: 0px;
+    top: 2150px;
+    background-color: #5242e6;
+    height: 800px;
+    width: 100%;
+    color:#fff;
+}
+.rec{
+    width:80%;
+    margin-left:241px;
+    text-align:justify;
+    font-size: 18px;
+    font-family: bahnschrift;
+}
+#pp1{
+    height: 180px;
+    width: 180px;
+    background-image: url("img/trump.png");
+    background-repeat: no-repeat;
+    background-size: 180px;
+    float: right;
+    margin:-38px;
+}
+#pp2{
+    height: 180px;
+    width: 180px;
+    background-image: url("img/modiji.png");
+    background-repeat: no-repeat;
+    background-size: 180px;
+    float: right;
+    margin:-38px;
+}
+#contact{
+    position: absolute;
+    left: 0px;
+    top: 2950px;
+    background-color: #fff;
+    height: 500px;
+    width: 100%;
+    color:#5242e6;}
+.last{
+    float: left;
+    margin-left: 241px;
+    width: 35px;
+}
+@media (max-width:320px) {.container {
+    width:100%;
+} }
+@media (max-width:481px) {.container {
+    width:100%;
+} }
+@media (max-width:641px) {.container {
+    width:100%;
+} }
+@media (max-width:961px) {.container {
+    width:100%;
+} }
+@media (max-width:1000px) {.container {
+    width:100%;
+} }
